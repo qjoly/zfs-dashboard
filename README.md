@@ -2,6 +2,8 @@
 
 A lightweight web dashboard for monitoring ZFS pools, datasets, snapshots, drives and ARC cache — packaged as a single Go binary and a Docker image.
 
+![](dash.png)
+
 ## Features
 
 - **Pools** — health, capacity, fragmentation, dedup ratio, I/O ops & bandwidth, vdev tree
