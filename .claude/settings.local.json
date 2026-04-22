@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version *)",
+      "Read(//usr/**)",
+      "Bash(zpool status *)",
+      "Bash(zpool list *)",
+      "Bash(zfs list *)",
+      "Bash(podman --version)",
+      "Bash(podman info *)",
+      "Bash(smartctl --version)",
+      "Bash(zpool get *)",
+      "Bash(zfs get *)",
+      "Bash(zpool iostat *)",
+      "Bash(ldd /usr/local/sbin/zpool)",
+      "Bash(chmod +x /home/almalinux/code/zfs-storage-smart/run.sh)",
+      "Bash(podman build *)",
+      "Bash(podman rm *)",
+      "Bash(podman run *)",
+      "Bash(podman exec *)",
+      "Bash(podman logs *)",
+      "Bash(curl -s http://localhost:8080/api/data)",
+      "Bash(python3 -m json.tool)",
+      "Bash(sudo podman *)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -so /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(curl -so /dev/null -w \"%{http_code}\\\\n\" http://localhost:8080/)",
+      "Bash(sudo crontab *)",
+      "Bash(bash *)"
+    ]
+  }
+}
