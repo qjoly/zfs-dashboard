@@ -7,7 +7,7 @@ COPY main.go .
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o zfs-dashboard .
 
 # ── Stage 2: Runtime ──────────────────────────────────────────────────────────
-FROM almalinux:9
+FROM almalinux:10
 
 # smartmontools is used for SMART data collection
 RUN dnf install -y epel-release && \
